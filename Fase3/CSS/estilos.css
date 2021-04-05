@@ -1,0 +1,46 @@
+
+        /* Style the body */
+        body {
+            background: #5b9178;
+            font-family: Arial;
+            margin: 0;
+        }
+
+        /* Header/logo Title */
+        header {
+            padding: 30px;
+            text-align: center;
+            background: #44BBA4;
+            color: rgb(0, 0, 0);
+        }
+
+        /* Style the top navigation bar */
+        /* contenedor de columnas o principal */
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* crea dos columnas que se situan una al lado de la otra  */
+        /* Sidebar/left column */
+        aside {
+            flex: 25%;
+            background-color: #ebebeb;
+            padding: 20px;
+        }
+
+        /* Main column */
+        .main {
+            flex:65%;
+            background-color: rgb(250, 222, 146);
+            padding: 20px;
+        }
+
+        /* Footer */
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+
+    
