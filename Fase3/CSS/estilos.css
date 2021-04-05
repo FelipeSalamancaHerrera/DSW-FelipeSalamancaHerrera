@@ -10,8 +10,8 @@
         header {
             padding: 30px;
             text-align: center;
-            background: #ddcb2c;
-            color: rgb(0, 0, 0);
+            background: #5985c7;
+            color: rgb(255, 255, 255);
         }
 
         /* Style the top navigation bar */
@@ -26,14 +26,14 @@
         /* Sidebar/left column */
         aside {
             flex: 25%;
-            background-color: #f8f8f8;
+            background-color: #cccccca9;
             padding: 20px;
         }
 
         /* Main column */
         .main {
             flex:75%;
-            background-color: rgb(182, 182, 182);
+            background-color: rgba(151, 151, 151, 0.596);
             padding: 20px;
         }
 
@@ -41,7 +41,9 @@
         footer {
             padding: 20px;
             text-align: center;
-            background: #ddd;
+            background: rgb(107, 155, 209);
+            color: rgb(255, 255, 255);
+        
         }
 
         * {
@@ -54,15 +56,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            color: rgb(0, 0, 0);
-            background: rgb(211, 179, 37);
+            color: rgb(255, 255, 255);
+            background: rgb(07, 155, 209);
             height: 50px;
             text-decoration: none;
             margin: 1px;
         }
 
         .menu-area a:hover {
-            background: rgb(0, 0, 0);
+            background: rgb(07, 155, 209);
             color: rgb(255, 255, 255);
 
         }
